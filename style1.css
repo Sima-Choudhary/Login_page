@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin:0;
+
+}
+nav{
+    background: #000;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav h1{
+    font-size: 25px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+
+main{
+    background: url('bgimage.avif');
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1{
+    color: #fff;
+    text-align: center;
+}
+footer{
+    margin-top: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p{
+    color: beige;
+    font-weight: bold;
+}           
+
